@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ashish.fileserver">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_adb_black_24dp"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ScrollingActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ScrollingActivity2"
+            android:label="@string/title_activity_scrolling2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ScrollingActivity1_1"
+            android:label="@string/title_activity_scrolling_activity1_1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ScrollingActivity2_0"
+            android:label="@string/title_activity_scrolling_activity2_0"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ScrollingActivity2_1"
+            android:label="@string/title_activity_scrolling_activity2_1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ScrollingActivity3_0"
+            android:label="@string/title_activity_scrolling_activity3_0"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ScrollingActivity3_1"
+            android:label="@string/title_activity_scrolling_activity3_1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ScrollingActivity4_0"
+            android:label="@string/title_activity_scrolling_activity4_0"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ScrollingActivity1_1_1"
+            android:label="@string/title_activity_scrolling_activity1_1_1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ScrollingActivity1_1_2"
+            android:label="@string/title_activity_scrolling_activity1_1_2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ScrollingActivity1_1_3"
+            android:label="@string/title_activity_scrolling_activity1_1_3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ScrollingActivity1_1_4"
+            android:label="@string/title_activity_scrolling_activity1_1_4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ScrollingActivity_Test"
+            android:label="@string/title_activity_scrolling_activity__test"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ScrollingActivity7_0"
+            android:label="@string/title_activity_scrolling_activity7_0"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ScrollingActivity7_1"
+            android:label="@string/title_activity_scrolling_activity7_1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ScrollingActivity7_2"
+            android:label="@string/title_activity_scrolling_activity7_2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ScrollingActivity5_1"
+            android:label="@string/title_activity_scrolling_activity5_1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ScrollingActivity6_1"
+            android:label="@string/title_activity_scrolling_activity6_1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".About"
+            android:label="About" />
+        <activity
+            android:name=".Settings"
+            android:label="Settings"></activity>
+        <activity
+            android:name=".ScrollingActivityMAIN"
+            android:label="@string/title_activity_scrolling_activity_main"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
